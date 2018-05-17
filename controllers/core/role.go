@@ -5,7 +5,7 @@
 ** @Last Modified by:   haodaquan
 ** @Last Modified time: 2017-09-17 11:31:13
 ***********************************************/
-package controllers
+package core
 
 import (
 	"fmt"
@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"BaseAdmin/astaxie/beego"
-	"BaseAdmin/models"
+	models "BaseAdmin/models/core"
 )
 
 type RoleController struct {

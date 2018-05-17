@@ -5,7 +5,7 @@
 ** @Last Modified by:   haodaquan
 ** @Last Modified time: 2017-09-18 10:28:01
 ***********************************************/
-package controllers
+package core
 
 import (
 	"fmt"
@@ -14,7 +14,7 @@ import (
 
 	"BaseAdmin/astaxie/beego"
 	"BaseAdmin/libs"
-	"BaseAdmin/models"
+	models "BaseAdmin/models/core"
 )
 
 const (

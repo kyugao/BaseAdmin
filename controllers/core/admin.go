@@ -5,7 +5,7 @@
 ** @Last Modified by:   haodaquan
 ** @Last Modified time: 2017-09-17 11:14:07
 ***********************************************/
-package controllers
+package core
 
 import (
 	"fmt"
@@ -15,7 +15,7 @@ import (
 
 	"BaseAdmin/astaxie/beego"
 	"BaseAdmin/libs"
-	"BaseAdmin/models"
+	models "BaseAdmin/models/core"
 )
 
 type AdminController struct {

@@ -6,7 +6,7 @@
 ** @Last Modified time: 2017-09-16 17:26:48
 ***********************************************/
 
-package models
+package core
 
 import (
 	"net/url"
@@ -16,7 +16,7 @@ import (
 	_ "BaseAdmin/go-sql-driver/mysql"
 )
 
-func Init() {
+func init() {
 	dbhost := beego.AppConfig.String("db.host")
 	dbport := beego.AppConfig.String("db.port")
 	dbuser := beego.AppConfig.String("db.user")

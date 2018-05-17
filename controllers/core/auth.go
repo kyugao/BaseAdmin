@@ -6,14 +6,14 @@
 ** @Last Modified time: 2017-09-17 11:23:40
 ***********************************************/
 
-package controllers
+package core
 
 import (
 	"fmt"
 	"strings"
 	"time"
 
-	"BaseAdmin/models"
+	models "BaseAdmin/models/core"
 )
 
 type AuthController struct {

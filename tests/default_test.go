@@ -6,7 +6,7 @@ import (
 	"testing"
 	"runtime"
 	"path/filepath"
-	_ "PPGo_ApiAdmin/routers"
+	_ "BaseAdmin/routers"
 
 	"BaseAdmin/astaxie/beego"
 	. "BaseAdmin/smartystreets/goconvey/convey"

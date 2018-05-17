@@ -5,7 +5,7 @@
 ** @Last Modified by:   haodaquan
 ** @Last Modified time: 2017-09-09 18:04:41
 ***********************************************/
-package controllers
+package core
 
 type HomeController struct {
 	BaseController
