@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/astaxie/beego"
-	"github.com/george518/PPGo_ApiAdmin/libs"
-	"github.com/george518/PPGo_ApiAdmin/models"
+	"BaseAdmin/astaxie/beego"
+	"BaseAdmin/libs"
+	"BaseAdmin/models"
 )
 
 type AdminController struct {

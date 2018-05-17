@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/astaxie/beego/orm"
+	"BaseAdmin/astaxie/beego/orm"
 )
 
 type RoleAuth struct {

@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	_ "PPGo_ApiAdmin/routers"
 
-	"github.com/astaxie/beego"
-	. "github.com/smartystreets/goconvey/convey"
+	"BaseAdmin/astaxie/beego"
+	. "BaseAdmin/smartystreets/goconvey/convey"
 )
 
 func init() {

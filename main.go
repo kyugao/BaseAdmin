@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/george518/PPGo_ApiAdmin/models"
-	_ "github.com/george518/PPGo_ApiAdmin/routers"
+	"BaseAdmin/models"
+	_ "BaseAdmin/routers"
 
-	"github.com/astaxie/beego"
+	"BaseAdmin/astaxie/beego"
 )
 
 func main() {

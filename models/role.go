@@ -8,7 +8,7 @@
 package models
 
 import (
-	"github.com/astaxie/beego/orm"
+	"BaseAdmin/astaxie/beego/orm"
 )
 
 type Role struct {

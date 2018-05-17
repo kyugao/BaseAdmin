@@ -11,9 +11,9 @@ package models
 import (
 	"net/url"
 
-	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/orm"
-	_ "github.com/go-sql-driver/mysql"
+	"BaseAdmin/astaxie/beego"
+	"BaseAdmin/astaxie/beego/orm"
+	_ "BaseAdmin/go-sql-driver/mysql"
 )
 
 func Init() {
@@ -33,8 +33,7 @@ func Init() {
 		dsn = dsn + "&loc=" + url.QueryEscape(timezone)
 	}
 	orm.RegisterDataBase("default", "mysql", dsn)
-	orm.RegisterModel(new(Auth), new(Role), new(RoleAuth), new(Admin),
-		new(Group), new(Env), new(Code), new(ApiSource), new(ApiDetail), new(ApiPublic), new(Template))
+	orm.RegisterModel(new(Auth), new(Role), new(RoleAuth), new(Admin))
 
 	if beego.AppConfig.String("runmode") == "dev" {
 		orm.Debug = true
