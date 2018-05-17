@@ -10,7 +10,7 @@ package models
 import (
 	"fmt"
 
-	"github.com/astaxie/beego/orm"
+	"BaseAdmin/astaxie/beego/orm"
 )
 
 type Auth struct {
