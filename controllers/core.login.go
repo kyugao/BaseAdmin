@@ -5,7 +5,7 @@
 ** @Last Modified by:   haodaquan
 ** @Last Modified time: 2017-09-17 11:55:21
 ***********************************************/
-package core
+package controllers
 
 import (
 	"fmt"

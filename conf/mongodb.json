@@ -1,0 +1,8 @@
+{
+  "Hosts": [
+    "localhost:27017"
+  ],
+  "User": "",
+  "Pass": "",
+  "DBName": "BaseAdmin"
+}

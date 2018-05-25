@@ -5,14 +5,13 @@
 ** @Last Modified by:   haodaquan
 ** @Last Modified time: 2017-09-17 11:14:07
 ***********************************************/
-package core
+package controllers
 
 import (
 	"fmt"
 	"strconv"
 	"strings"
 	"time"
-
 	"BaseAdmin/astaxie/beego"
 	"BaseAdmin/libs"
 	models "BaseAdmin/models/core"
@@ -25,7 +24,6 @@ type AdminController struct {
 func (self *AdminController) List() {
 	self.Data["pageTitle"] = "管理员管理"
 	self.display()
-	//self.TplName = "admin/list.html"
 }
 
 func (self *AdminController) Add() {
